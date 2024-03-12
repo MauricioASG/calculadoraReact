@@ -40,7 +40,8 @@ function App() {
   return (
     // se engloban dentro de un fragment <> </>
     <>
-        <h1>Calculadora</h1>
+        <h1>Calculadora basica</h1>
+        <h2>Mauricio Alejandro Serrano García</h2>
         {/* es un imput con un valor que es el de numeroUno(es un estado reactivo) ahora con
          la función que creamos es lo que hara el input  */}
         <input type="text" placeholder="Numero 1" value={numeroUno} onChange={handleChangeUno}/>
